@@ -1,0 +1,81 @@
+.contact-form {
+    border-radius: 3px;
+    padding: 30px;
+  }
+  
+  .form-h {
+    margin-bottom: 20px;
+  }
+  
+  .devo-input {
+    height: 45px;
+    width: 100%;
+    border: unset;
+    border-radius: 3px;
+    padding: 0 15px;
+    font-size: 15px;
+    font-weight: 400;
+    font-family: "Poppins", sans-serif;
+    color: #000000;
+  }
+  .devo-input::placeholder {
+    color: #71778E;
+  }
+  .devo-input:focus {
+    border: 1px solid #71778E;
+    outline: unset;
+  }
+  
+  .devo-textarea {
+    height: 120px;
+    padding: 10px 15px;
+  }
+  
+  .devo-center {
+    text-align: center;
+  }
+  
+  .contact-text {
+    padding: 30px 30px 0;
+  }
+  .contact-text .form-h {
+    font-size: 19px;
+  }
+  
+  .contact-user ul {
+    margin: unset;
+    padding: unset;
+    list-style: none;
+  }
+  .contact-user ul li {
+    margin-bottom: 20px;
+  }
+  .contact-user ul li .contact-label {
+    display: block;
+    font-size: 16px;
+    margin-bottom: 5px;
+  }
+  .contact-user ul li a {
+    font-weight: 600;
+    font-size: 15px;
+    font-family: "Poppins", sans-serif;
+  }
+  .contact-user ul li a:hover {
+    text-decoration: unset;
+    color: #FE346E;
+  }
+  .contact-user ul li i {
+    margin-right: 5px;
+  }
+  
+  @media (max-width: 992px) {
+    .contact-text {
+      padding: 30px 0 0;
+    }
+  }
+  @media (max-width: 767px) {
+    .contact-form {
+      margin-bottom: 20px;
+    }
+  }
+  

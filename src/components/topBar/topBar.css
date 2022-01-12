@@ -1,0 +1,213 @@
+.devo-toolbar {
+    padding: 20px 0;
+}
+.contact-toolbar ul {
+    margin: unset;
+    padding: unset;
+    list-style: unset;
+  }
+  .contact-toolbar ul li {
+    display: inline-block;
+    margin-right: 30px;
+  }
+  .contact-toolbar ul li a {
+    font-weight: bold;
+    font-size: 16px;
+    font-family: "Open Sans", sans-serif;
+  }
+  .contact-toolbar ul li a:hover {
+    text-decoration: unset;
+    color: #FE346E;
+  }
+  .contact-toolbar ul li i {
+    margin-right: 5px;
+  }
+  .contact-toolbar ul li:last-of-type {
+    margin-right: 0;
+  }
+  
+  .social-toolbar {
+    text-align: right;
+  }
+  .social-toolbar ul li a:hover {
+    color: #ffffff;
+    background-color: #FE346E;
+  }
+  
+  .devo-social ul {
+    margin: unset;
+    padding: unset;
+    list-style: unset;
+  }
+  .devo-social ul li {
+    display: inline-block;
+    margin-right: 7px;
+  }
+  .devo-social ul li a {
+    display: block;
+    width: 26px;
+    height: 26px;
+    border-radius: 50%;
+    border: 1px solid;
+    font-size: 13px;
+    text-align: center;
+    line-height: 25px;
+  }
+  .devo-social ul li a:hover {
+    text-decoration: unset;
+  }
+  .devo-social ul li:last-of-type {
+    margin-right: 0;
+  }
+  
+  .menu-container {
+    padding: 20px;
+    box-shadow: 0px 0px 16px 1px rgba(0, 0, 0, 0.06);
+  }
+  
+  .main-menu {
+    text-align: right;
+  }
+  
+  .menu-box ul {
+    margin: unset;
+    padding: unset;
+    list-style: unset;
+  }
+  .menu-box ul li {
+    display: inline-block;
+    margin-right: 25px;
+  }
+  .menu-box ul li a {
+    font-weight: bold;
+    font-size: 16px;
+    font-family: "Poppins", sans-serif;
+  }
+  .logoutClass-topBar{
+    font-weight: bold;
+    font-size: 16px;
+    color: #FE346E;
+    cursor: pointer;
+  }
+  .menu-box ul li a:hover {
+    text-decoration: unset;
+    color: #FE346E;
+  }
+  .menu-box ul li:last-of-type {
+    margin-right: 0;
+  }
+  .menu-box ul li.current_page_item a {
+    color: #FE346E;
+  }
+  
+  .devo-navigation-fixed {
+    position: fixed;
+    top: 0;
+    left: 0;
+    width: 100%;
+    transition: 1s ease;
+    -moz-transition: 1s ease;
+    -webkit-transition: 1s ease;
+    -o-transition: 1s ease;
+    -ms-transition: 1s ease;
+    z-index: 999;
+    background-color: #ffffff;
+    box-shadow: 0px 0px 16px 1px rgba(0, 0, 0, 0.06);
+    margin: 0 !important;
+  }
+  .devo-navigation-fixed .menu-container {
+    box-shadow: unset;
+    padding: 20px 0;
+  }
+  
+  .menu-mob,
+  .bar-box {
+    display: none;
+  }
+  
+  @media (max-width: 992px) {
+    .devo-menu {
+      margin: 20px 0;
+    }
+  
+    .devo-toolbar,
+    .main-menu {
+      display: none;
+    }
+  
+    .menu-mob {
+      position: fixed;
+      z-index: 99999;
+      top: 0;
+      width: 250px;
+      display: block;
+      height: 100%;
+      padding: 40px 20px;
+      box-shadow: -7px 0px 16px 2px rgba(0, 0, 0, 0.13);
+      transition: all .5s ease-in-out;
+      overflow: auto;
+      left: -400px;
+    }
+    .menu-mob .devo-exit {
+      position: absolute;
+      top: 20px;
+      right: 20px;
+      cursor: pointer;
+      font-size: 18px;
+    }
+  
+    .bar-box {
+      text-align: right;
+      display: block;
+    }
+    .bar-box i {
+      font-size: 20px;
+      cursor: pointer;
+    }
+  
+    .menu-box,
+    .contact-toolbar {
+      margin-bottom: 20px;
+    }
+    .menu-box ul li,
+    .contact-toolbar ul li {
+      display: block;
+      margin-right: unset;
+      margin-bottom: 10px;
+    }
+    .menu-box ul li a,
+    .contact-toolbar ul li a {
+      font-size: 14px;
+    }
+    .menu-box ul li a:hover,
+    .contact-toolbar ul li a:hover {
+      color: #000000;
+    }
+    .menu-box ul li a:hover i,
+    .contact-toolbar ul li a:hover i {
+      color: #000000;
+    }
+    .menu-box ul li.current_page_item a,
+    .contact-toolbar ul li.current_page_item a {
+      color: #000000;
+    }
+  
+    .social-toolbar {
+      text-align: left;
+    }
+    .social-toolbar ul li a:hover {
+      background-color: #ffffff;
+      color: #FE346E;
+    }
+  
+    .overlay-menu {
+      position: fixed;
+      top: 0;
+      left: 0;
+      width: 100%;
+      height: 100%;
+      background-color: rgba(0, 0, 0, 0.3);
+      z-index: 888;
+      display: none;
+    }
+  }

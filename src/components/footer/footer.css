@@ -1,0 +1,58 @@
+.footer-logo {
+    margin-bottom: 30px;
+    text-align: center;
+  }
+  
+  .footer-menu {
+    text-align: center;
+    margin-bottom: 20px;
+  }
+  .footer-menu ul {
+    margin: unset;
+    padding: unset;
+    list-style: unset;
+  }
+  .footer-menu ul li {
+    display: inline-block;
+    margin-right: 25px;
+    margin-bottom: 10px;
+  }
+  .footer-menu ul li a {
+    font-weight: bold;
+    font-size: 16px;
+    font-family: "Poppins", sans-serif;
+  }
+  .footer-menu ul li a:hover {
+    text-decoration: unset;
+    color: #000000;
+  }
+  .footer-menu ul li:last-of-type {
+    margin-right: 0;
+  }
+  
+  .social-footer {
+    text-align: center;
+  }
+  .social-footer ul li a:hover {
+    color: #ffffff;
+    background-color: transparent;
+  }
+  
+  .copyright-box {
+    border-top: 1px solid #ffffff;
+    padding: 20px 0;
+  }
+  .copyright-box .copyright-p {
+    text-align: center;
+    margin: unset;
+  }
+  .copyright-box .copyright-p a:hover {
+    text-decoration: unset;
+    color: #000000;
+  }
+  .logoutClass-footer{
+    font-weight: bold;
+    font-size: 16px;
+    color: #ffffff;
+    cursor: pointer;
+  }
